@@ -1,0 +1,709 @@
+@media screen and (max-width:1800px) {
+
+    .testimony h2 {
+        padding: 0 200px;
+    }
+
+    .the-testimony-track-sld .slde_thumb {
+        padding: 0 200px;
+    }
+
+    .the-testimony-track-sld .slde_thumb .testimony-track-meta {
+        width: 50%;
+        left: 200px;
+    }
+
+}
+
+@media screen and (max-width:1600px) {
+
+    .testimony h2 {
+        padding: 0 100px;
+    }
+
+    .the-testimony-track-sld .slde_thumb {
+        padding: 0 100px;
+    }
+
+    .the-testimony-track-sld .slde_thumb .slde-thumb-img {
+        width: 50%;
+    }
+
+    .the-testimony-track-sld .slde_thumb .testimony-track-meta {
+        width: 50%;
+        left: 100px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    
+    .big-screen{
+        display: none !important; 
+    }
+
+    .small-screen{
+        display: block !important;   
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .link_ar{
+        margin: 0 55px;
+    }
+    .link_ar::before{
+        bottom: 8px;
+    }
+
+    .lnk-arw {
+        font-size: 16px;
+        line-height: 44px;
+        margin-top: 20px;
+        padding-right: 40px;
+    }
+
+    .lnk-arw::after {
+        width: 30px;
+        height: 30px;
+        top: 6px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .container{
+        padding: 0 20px;
+    }
+
+
+    header {
+        padding: 40px 0 23px 0;
+    }
+
+    .hamburger{
+        top: 14px;
+        width: 26px;
+        height: 9px;
+    }
+    .hamburger span {
+        height: 2px;
+    }
+
+    header .close {
+        width: 20px;
+        height: 20px;
+        top: 19px;
+        left: 33px;
+    }
+
+    header .logo {
+        width: 136px;
+        float: right;
+        margin-left: 0;
+    }
+
+    header nav {
+        display: none;
+    }
+    
+    .main_nav {
+        padding: 150px 50px 50px 60px;
+    }
+
+    .main_nav > div {
+        justify-content: start;
+        justify-items: start;
+    }
+
+    .main_nav .menu {
+        width: auto;
+        margin-bottom: 60px;
+    }
+
+    .main_nav .sndry-menu {
+        width: auto;
+    }
+
+
+    .hero .hero_para {
+        left: 40px;
+        right: 40px;
+        top: auto;
+        bottom: 90px;
+        max-width: auto;
+    }
+
+    .hero .hero_para p {
+        margin: 60px 0;
+        font-size: 24px;
+        line-height: 32px;
+        text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero_para .link_underline {
+        margin-right: 0;
+        margin-left: 40px;
+    }
+
+    .hero_para .link_underline:first-child{
+        margin-left: 0;
+    }
+
+
+    .what-we-do {
+        padding: 85px 0;
+    }
+
+    .what-we-do .container {
+        gap: 0;
+    }
+
+    .what-we-do .grids {
+        display: block;
+    }
+
+    .what-we-do .grids.grids-bot{
+        display: none;
+    }
+
+    .what-we-do .grids .grid-single {
+        border-radius: 32px;
+        display: block;
+        transform: none !important;
+        margin-top: 50px;
+    }
+
+    .what-we-do .grids .grid-single h2 {
+        font-size: 20px;
+        line-height: 42px;
+    }
+
+    .what-we-do .grids .grid-single .txt-container {
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        right: 45px;
+        margin: 0;
+    }
+
+    .what-we-do .grids .grid-single .txt-container h3 {
+        font-size: 20px;
+        line-height: 42px;
+        color: #fff;
+    }
+
+    .what-we-do .grids .grid-single .txt-container p{
+        font-size: 14px;
+        line-height: 20px;
+        color: #F3F3F3;
+    } 
+
+    .what-we-do .grids .grid-single .what-we-do-btn{
+        display: block;
+        top: auto;
+        left: 30px;
+        bottom: 20px;
+        transform: none;
+        opacity: 1;
+    }
+
+
+    .testimony {
+        overflow: hidden;
+        padding: 60px 0 0 0;
+        background: #231F20;
+    }
+
+    .testimony .container{
+        padding: 0;
+    }
+
+    .testimony h2 {
+        padding: 0 50px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .the-testimony-track .slick-slide {
+        margin: 0 15px;
+    }
+
+    .testimony .slick-prev, 
+    .testimony .slick-next {
+        display: none !important;
+    }
+
+    .the-testimony-track-sld .slde_thumb {
+        padding: 0;
+    }
+
+    .the-testimony-track-sld .slde_thumb .slde-thumb-img {
+        width: 100%;
+        border-radius: 43px;
+        float: none;
+    }
+
+    .the-testimony-track-sld .slde_thumb .testimony-track-meta {
+        width: 90%;
+        padding: 55px 33px;
+        margin: 0 auto;
+        left: auto;
+        top: auto;
+        transform: translateY(-20%);
+        position: relative;
+    }
+
+    .the-testimony-track-sld .slde_thumb .testimony-track-meta p.testimony-text {
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .the-testimony-track-sld .slde_thumb .testimony-track-meta h5.testimony-author {
+        line-height: 30px;
+    }
+
+
+    .our-performance-track-record{
+        display: none;
+    }
+
+
+    .property-listing {
+        padding: 160px 0 115px 0;
+    }
+
+    .property-listing-single > div {
+        flex: 0 0 100%;
+    }
+
+    .property-listing-single .property-listing-content {
+        max-width: calc(100% - 60px);
+    }
+
+    .property-listing-single.listing-of-the-month .property-listing-content {
+        margin-top: 40px;
+        margin-bottom: 90px;
+    }
+
+    .property-listing-single.why-should-you-list-with-us .property-listing-content {
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+
+    .property-listing-single .property-listing-img .property-img-txt {
+        left: 40px !important;
+    }
+
+    .property-listing-single.listing-of-the-month .property-listing-img .property-img-txt {
+        bottom: 45px;
+    }
+
+    .property-listing-single.why-should-you-list-with-us .property-listing-img .property-img-txt {
+        top: 50px;
+    }
+
+    .property-listing-single .property-listing-img .property-img-txt h2 {
+        margin-bottom: 0px;
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .property-listing-single .property-listing-img .property-img-play-btn {
+        right: 50px;
+        bottom: 45px;
+    }
+
+    .property-listing-single .property-listing-content h3 {
+        color: #AFAFAF;
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 42px;
+    }
+
+    .property-listing-single .property-listing-content h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .property-listing-single.listing-of-the-month .property-listing-content .listed-property-details ul {
+        grid-template-columns: .75fr .75fr 1.5fr;
+        gap: 35px;
+    }
+
+    .property-listing-single.listing-of-the-month .property-listing-content .listed-property-details ul li {
+        gap: 13px;
+    }
+
+    .property-listing-single.listing-of-the-month .property-listing-content .listed-property-details ul li .icon {
+        width: 43px;
+        height: 43px;
+    }
+
+    .property-listing-single.listing-of-the-month .property-listing-content .listed-property-details ul li .info {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .property-listing-single.listing-of-the-month .property-listing-content .btn_hldr {
+        margin-top: 30px;
+    }
+
+    .property-listing-single .property-listing-content h2 {
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .property-listing-single .property-listing-content h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .property-listing-single.why-should-you-list-with-us .property-listing-content .btn_hldr {
+        margin-top: 30px;
+    }
+
+    .property-listing-single.why-should-you-list-with-us .property-listing-content .btn_hldr .btn-gn {
+        flex: 0 0 170px !important;
+        width: 170px;
+    }
+
+    .property-listing-single.why-should-you-list-with-us .property-listing-content .btn_hldr .link_underline {
+        margin-right: 0;
+    }
+
+
+    .faqs{
+        display: none;
+    }
+
+
+    footer {
+        background: #231F20;
+        align-items: flex-start;
+        color: #fff;
+        overflow: hidden;
+        padding: 80px 0 0 0;
+    }
+
+    .conatct_form {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .footer-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    margin-top: 100px;
+    }
+
+    .footer-info .footer-menu {
+        justify-content: space-around;
+        align-items: start;
+    }
+
+    .footer-info ul li a {
+        color: #888888;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .footer-info .footer-logo {
+        width: 280px;
+        position: relative;
+        margin: 70px auto;
+    }
+
+
+
+
+    .history .the-story {
+        padding-top: 200px;
+    }
+
+    .history .the-story .container {
+        gap: 70px;
+    }
+
+    .history .the-story h1 {
+        width: 70%;
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .history .the-story .the-story-details {
+        gap: 50px;
+    }
+
+    .history .the-story .the-story-details .sticky_title {
+        max-width: 30%;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    .history .the-story .the-story-details .descp {
+        max-width: 70%;
+        gap: 30px;
+    }
+
+    .history .the-story .the-story-details .descp .descp-img .year {
+        left: 35px;
+        bottom: 35px;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .history .the-story .the-story-details .descp p {
+        font-size: 24px;
+        line-height: 36px;
+        padding-right: 30px;
+    }
+
+
+
+
+    .blog-page {
+        height: auto;
+    }
+
+    .blog-page .blog {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .blog-page .blog .container {
+        flex-direction: column;
+    }
+
+    .blog-page .blog .left-fixed {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .blog-page .blog .left-fixed h1 {
+        width: 60%;
+        padding-top: 0;
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .blog-page .blog .left-fixed .blog-nav {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .blog-page .blog .right-scroll {
+        max-width: 100%;
+        height: 100vh;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .blog-page .blog .right-scroll .blog-content-single {
+        width: 100%;
+        min-height: 400px;
+        grid-auto-flow: row;
+        grid-template-columns: auto;
+        position: relative;
+        padding-top: 300px;
+    }
+
+    .blog-page .blog .right-scroll .blog-content-single .blog-content-txt {
+        padding: 40px;
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .blog-page .blog .right-scroll .blog-content-single .blog-content-img {
+        height: auto;
+        width: 100%;
+        position: absolute;
+    }
+
+    .blog-page .blog .right-scroll .blog-content-single .blog-content-img img {
+        width: 100%;
+        height: 300px;
+    }
+
+
+
+
+    .the-project {
+        margin-bottom: 50px;
+    }
+
+    .the-project .the-project-img {
+        height: 80vh;
+        flex: 0 0 100%;
+    }
+
+    .the-project .the-project-img .the-project-img-txt {
+        right: 30px;
+        left: 30px;
+        bottom: 40px;
+    }
+
+    .the-project .the-project-img .the-project-img-txt h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 10px;
+    }
+
+    .the-project .the-project-img .the-project-img-txt p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .the-project .the-project-content {
+        width: 100%;
+        max-width: 90%;
+        margin: 40px 20px;
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .the-project .the-project-content h4 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    .project-breif {
+        margin-top: 100px;
+    }
+
+    .project-breif .project-breif-img {
+        width: 100%;
+        height: 80vh;
+        flex: 0 0 100%;
+    }
+
+    .project-breif .project-breif-content {
+        width: 100%;
+        max-width: 90%;
+        margin: 50px auto;
+        flex: 0 0 100%;
+    }
+
+    .project-breif .project-breif-content p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .project-page .full-image {
+        margin: 50px 0 150px 0;
+    }
+        
+    
+}
+
+@media screen and (max-width:480px) {
+
+    .history .property-listing-single .property-listing-img .property-img-txt h2 {
+        padding-right: 0;
+    }
+
+    .property-listing-single.why-should-you-list-with-us .property-listing-img .property-img-txt .btn_hldr .link_underline{
+        margin-right: 0;
+        margin-left: 40px;
+    }
+
+    .property-listing-single.why-should-you-list-with-us .property-listing-img .property-img-txt .btn_hldr .link_underline:first-child{
+        margin-left: 0;
+    }
+
+
+
+    .history .the-story {
+        padding-top: 150px;
+    }
+
+    .history .the-story .container {
+        gap: 50px;
+    }
+
+    .history .the-story h1 {
+        width: 90%;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .history .the-story .the-story-details {
+        gap: 30px;
+    }
+
+    .history .the-story .the-story-details .the-story-details-single {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .history .the-story .the-story-details .sticky_title {
+        max-width: 100%;
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .history .the-story .the-story-details .sticky_title h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .history .the-story .the-story-details .descp {
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .history .the-story .the-story-details .descp .descp-img {
+        border-radius: 32px;
+    }
+
+    .history .the-story .the-story-details .descp .descp-img .year {
+        left: 20px;
+        bottom: 25px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .history .the-story .the-story-details .descp p {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0 20px;
+    }
+
+
+
+    
+
+    .project-breif .project-breif-img {
+        height: 60vh;
+    }
+
+}
